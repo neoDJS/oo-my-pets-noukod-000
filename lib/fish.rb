@@ -4,6 +4,6 @@ class Fish
   attr_reader :name
   def initialize(name="")
     @name = name
-    self.mood = "Nervous"
+    self.mood = "nervous"
   end
 end
