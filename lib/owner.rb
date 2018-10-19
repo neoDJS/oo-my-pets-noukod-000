@@ -1,7 +1,10 @@
 class Owner
   # code goes here
   @@all = []
-
+  attr_reader :species
+  def initialize(species="")
+    @species = species
+  end
 
   def self.all
     @all.dup.freeze
