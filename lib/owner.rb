@@ -5,6 +5,7 @@ class Owner
   attr_reader :species
   def initialize(species="")
     @species = species
+    @@all << self
   end
 
   def say_species
