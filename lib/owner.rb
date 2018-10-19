@@ -27,6 +27,9 @@ class Owner
   def walk_dogs
   end
 
+  def play_with_cats
+  end
+
   def self.all
     @@all.dup.freeze
   end
