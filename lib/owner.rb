@@ -24,6 +24,9 @@ class Owner
   def buy_dog(name="")
   end
 
+  def walk_dogs
+  end
+
   def self.all
     @@all.dup.freeze
   end
