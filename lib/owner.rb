@@ -30,6 +30,15 @@ class Owner
   def play_with_cats
   end
 
+  def feed_fish
+  end
+
+  def sell_pets
+  end
+
+  def list_pets
+  end
+
   def self.all
     @@all.dup.freeze
   end
