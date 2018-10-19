@@ -22,23 +22,23 @@ class Owner
   end
 
   def buy_cat(name="")
-    @pets[:cat] << Cat.new(name)
+    @pets[:cats] << Cat.new(name)
   end
 
   def buy_dog(name="")
-    @pets[:dog] << Dog.new(name)
+    @pets[:dogs] << Dog.new(name)
   end
 
   def walk_dogs
-    @pets[:dog].collect{|d| d.mood = "happy"}
+    @pets[:dogs].collect{|d| d.mood = "happy"}
   end
 
   def play_with_cats
-    @pets[:cat].collect{|c| c.mood = "happy"}
+    @pets[:cats].collect{|c| c.mood = "happy"}
   end
 
   def feed_fish
-    @pets[:fish].collect{|f| f.mood = "happy"}
+    @pets[:fishes].collect{|f| f.mood = "happy"}
   end
 
   def sell_pets
