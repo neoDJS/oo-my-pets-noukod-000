@@ -18,6 +18,12 @@ class Owner
   def buy_fish(name="")
   end
 
+  def buy_cat(name="")
+  end
+
+  def buy_dog(name="")
+  end
+
   def self.all
     @@all.dup.freeze
   end
