@@ -15,6 +15,9 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
+  def buy_fish
+  end
+
   def self.all
     @@all.dup.freeze
   end
