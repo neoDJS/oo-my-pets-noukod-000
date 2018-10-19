@@ -17,7 +17,7 @@ class Owner
   end
 
   def pets
-    @petsdup..freeze
+    @pets.dup.freeze
   end
 
   def buy_fish(name="")
