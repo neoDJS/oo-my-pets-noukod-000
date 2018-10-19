@@ -7,6 +7,10 @@ class Owner
     @species = species
   end
 
+  def say_species
+    "I am a #{self.species}"
+  end
+
   def self.all
     @@all.dup.freeze
   end
