@@ -7,7 +7,7 @@ class Owner
     @species = species
     @pets = {}
     @pets[:fishes] = []
-    @pets[:dog] = []
+    @pets[:dogs] = []
     @pets[:cats] = []
     @@all << self
   end
